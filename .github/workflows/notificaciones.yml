@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: Enviar notificación a ntfy.sh
         run: |
-          curl -d "✅ Se ha hecho push a main en el repo ${{ github.repository }} 🚀" ntfy.sh/devops-itla
+          curl -d "✅ Se hizo un push en el repo ${{ github.repository }} 🚀" ntfy.sh/devops-itla
